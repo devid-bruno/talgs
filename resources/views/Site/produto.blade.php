@@ -300,7 +300,7 @@
                         <!-- Item Image -->
                         <div class="images">
                             <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                                <!-- Image --><a href="page-product.html"><img src="images/blusas/branca.jpeg"
+                                <!-- Image --><a href="{{route("site.vendas")}}"><img src="images/blusas/branca.jpeg"
                                         alt="" /></a>
                                 <div
                                     class="uk-card-badge uk-label text-small padding-10px bg-gray-dark margin-right-50px">
@@ -322,14 +322,14 @@
                                 class="text-weight-700 text-gray-dark" href="page-product.html">Camiseta Branca B/W</a></p>
                         <h6 class="roboto margin-top-25px text-weight-600 text-extra-large text-gray-dark">R$ 64,90</h6><a
                             class="btn btn-small btn-transparent-black sm-margin-left-right-auto sm-display-table xs-no-margin-bottom"
-                            href="page-cart.html">Add ao carinho</a><!-- End Item Description -->
+                            href="{{route("site.finalizar")}}">Add ao carinho</a><!-- End Item Description -->
                     </div><!-- End Column -->
                     <!-- Column -->
                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 margin-bottom-75px text-center">
                         <!-- Item Image -->
                         <div class="images">
                             <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                                <!-- Image --><a href="page-product.html"><img src="images/blusas/preta.jpeg"
+                                <!-- Image --><a href="{{route("site.vendasblack")}}"><img src="images/blusas/preta.jpeg"
                                         alt="" /></a>
                                 <div
                                     class="uk-card-badge uk-label text-small padding-10px bg-gray-dark margin-right-50px">
@@ -351,7 +351,7 @@
                                 class="text-weight-700 text-gray-dark" href="page-product.html">Camiseta Preta B/W</a></p>
                         <h6 class="roboto margin-top-25px text-weight-600 text-extra-large text-gray-dark">R$64,90</h6><a
                             class="btn btn-small btn-transparent-black sm-margin-left-right-auto sm-display-table xs-no-margin-bottom"
-                            href="page-cart.html">Add ao carinho</a><!-- End Item Description -->
+                            href="{{route("site.finalizar")}}">Add ao carinho</a><!-- End Item Description -->
                     </div>
                 </div><!-- End Row -->
             </div><!-- End Products -->

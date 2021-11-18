@@ -6,6 +6,9 @@ Route::get('/', [\App\Http\Controllers\PrincipalController::class, 'principal'])
 Route::get('/produto', [\App\Http\Controllers\ProdutoController::class, 'produto'])->name('site.produto');
 Route::get('/preco', [\App\Http\Controllers\PrecoController::class, 'preco'])->name('site.preco');
 Route::get('/login', function (){return 'Login';})->name('site.login');
+Route::get('/vendas', function (){return view('site.vendas');})->name('site.vendas');
+Route::get('/vendasblack', function (){return view('site.vendasblack');})->name('site.vendasblack');
+Route::get('/finalizar', function (){return view('site.finalizar');})->name('site.finalizar');
 
 Route::prefix('/app')->group(function(){
     Route::get('/clientes', function (){return 'clientes';})->name('app.clientes');
